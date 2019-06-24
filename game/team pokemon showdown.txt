@@ -1,0 +1,112 @@
+Scizor-Mega @ Scizorite  
+Ability: Technician  
+EVs: 252 HP / 4 Def / 252 SpD  
+Impish Nature  
+- Bullet Punch  
+- Swords Dance  
+- U-turn  
+- Roost  
+
+Heatran @ Leftovers  
+Ability: Flash Fire  
+EVs: 252 HP / 128 SpD / 128 Spe  
+Calm Nature  
+IVs: 0 Atk  
+- Flash Cannon  
+- Magma Storm  
+- Toxic  
+- Protect  
+
+Greninja-Ash @ Choice Specs  
+Ability: Battle Bond  
+EVs: 4 Def / 252 SpA / 252 Spe  
+Timid Nature  
+- Dark Pulse  
+- Hydro Pump  
+- Spikes  
+- Water Shuriken  
+
+Garchomp @ Rockium Z  
+Ability: Rough Skin  
+EVs: 252 Atk / 4 SpD / 252 Spe  
+Jolly Nature  
+- Swords Dance  
+- Earthquake  
+- Dragon Claw  
+- Stone Edge  
+
+Tangrowth @ Assault Vest  
+Ability: Regenerator  
+EVs: 248 HP / 8 Def / 252 SpD  
+Sassy Nature  
+- Giga Drain  
+- Knock Off  
+- Sludge Bomb  
+- Hidden Power [Fire]  
+
+Landorus-Therian @ Leftovers  
+Ability: Intimidate  
+EVs: 252 Atk / 4 Def / 252 Spe  
+Jolly Nature  
+- Earthquake  
+- Stone Edge  
+- U-turn  
+- Defog  
+
+
+
+Garchomp-Mega @ Garchompite  
+Ability: Rough Skin  
+EVs: 252 SpA / 4 SpD / 252 Spe  
+Hasty Nature  
+- Earthquake  
+- Draco Meteor  
+- Fire Blast  
+- Stealth Rock  
+
+Kartana @ Choice Scarf  
+Ability: Beast Boost  
+EVs: 252 Atk / 4 SpD / 252 Spe  
+Jolly Nature  
+- Leaf Blade  
+- Sacred Sword  
+- Knock Off  
+- Smart Strike  
+
+Magearna @ Assault Vest  
+Ability: Soul-Heart  
+EVs: 248 HP / 228 SpD / 32 Spe  
+Sassy Nature  
+- Fleur Cannon  
+- Iron Head  
+- Focus Blast  
+- Volt Switch  
+
+Rotom-Wash @ Leftovers  
+Ability: Levitate  
+EVs: 248 HP / 92 Def / 168 SpD  
+Careful Nature  
+IVs: 0 Atk / 30 Spe  
+- Hydro Pump  
+- Volt Switch  
+- Will-O-Wisp  
+- Pain Split  
+
+Tornadus-Therian @ Rocky Helmet  
+Ability: Regenerator  
+EVs: 252 HP / 52 Def / 204 Spe  
+Timid Nature  
+- Hurricane  
+- Knock Off  
+- Taunt  
+- Defog  
+
+Greninja-Ash @ Choice Specs  
+Ability: Battle Bond  
+EVs: 4 Def / 252 SpA / 252 Spe  
+Timid Nature  
+- Hydro Pump  
+- Dark Pulse  
+- Spikes  
+- Water Shuriken  
+
