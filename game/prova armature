@@ -1,0 +1,99 @@
+import pygame
+pygame.init()
+
+displayWidth = 900
+displayHeight = 740
+gameDisplay = pygame.display.set_mode((displayWidth, displayHeight))
+pygame.display.set_caption('Game')
+clock = pygame.time.Clock()
+FPS = 30
+
+main_x = displayWidth//4
+main_y = displayHeight//2.5
+x_size = 175
+y_size = 195
+
+white = (255, 255, 255)
+black = (0, 0, 0)
+red = (255, 0, 0)
+green = (0, 255, 0)
+blue = (0, 0, 255)
+
+#classi primarie
+class Player(object):
+    def __init__(self, lvl, HP, atk, dif, vel):
+        self.lvl = lvl
+        self.HP = HP
+        self.atk = atk
+        self.dif = dif
+        self.vel = vel
+        self.difStat = 0
+
+    def draw(self, win):
+        pygame.draw.rect(win, black, (main_x, main_y, x_size, y_size))
+
+class Armor(object):
+    def __init__(self, dif_change):
+        self.dif_change = dif_change
+        self.vel_change = 0
+        self.equipped = False
+        #self.unequipped = True
+
+class Weapon(object):
+    def __init__(self):
+        self.atk_change = 0
+        self.vel_change = 0
+        self.equipped = False
+        #self.unequipped = True
+
+#armature
+man = Player(1, 10, 17, 12, 11)
+defaultA = Armor(5)
+defaultA.equipped = True
+armor2 = Armor(15)
+armor2.equipped = False
+defaultS = Weapon()
+defaultS.equipped = True
+def Armor():
+    if defaultA.equipped:
+        man.difStat = man.dif + defaultA.dif_change
+    elif armor2.equipped:
+        man.difStat = man.dif + armor2.dif_change
+    else:
+        man.difStat = man.dif + man.lvl
+
+
+def mainLoop():
+    def redrawGameDisplay():
+        gameDisplay.fill(white)
+        man.draw(gameDisplay)
+        pygame.display.update()
+
+    run = True
+    while run:
+        Armor()
+
+        for event in pygame.event.get():
+            if event.type == pygame.QUIT:
+                run = False
+
+        keys = pygame.key.get_pressed()
+        if keys[pygame.K_a] and defaultA.dif_change <= 5:
+            defaultA.equipped = True
+            armor2.equipped = False
+        elif keys[pygame.K_q] and defaultA.dif_change >= 0:
+            defaultA.equipped = False
+            armor2.equipped = True
+        elif keys[pygame.K_w]:
+            defaultA.equipped = False
+            armor2.equipped = False
+
+        if keys[pygame.K_s]:
+            print(man.difStat, armor2.equipped, defaultA.equipped)
+
+        redrawGameDisplay()
+    pygame.quit()
+    quit()
+
+
+mainLoop()
